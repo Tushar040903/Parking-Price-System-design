@@ -300,17 +300,6 @@ print(f"Static Revenue: ${sim_static['metrics']['total_revenue']:,.2f}")
 
 ---
 
-## 💼 Data Science Resume Highlights
-
-Here are pre-formulated, high-impact bullet points for your resume or portfolio:
-
-- **Built ML-Driven Dynamic Pricing Engine**: Designed an end-to-end pricing system for 14 municipal parking lots (18,368 time-indexed records), generating a **+27.4% revenue increase** over flat-rate pricing via gradient-boosted regression ($R^2 = 0.992$).
-- **Time-Series Demand Forecasting**: Developed autoregressive time-series pipelines comparing ARIMA, SARIMA, and feature-lagged XGBoost models, achieving **8.2% MAPE** on 48-hour forward demand forecasting.
-- **Geospatial & Econometric Modeling**: Engineered an inverse-distance decay competitor pressure index using pairwise Haversine calculations and quantified segmented price elasticity ($E_d$) across lots and vehicle classes using log-log regressions.
-- **A/B Testing & Counterfactual Simulation**: Designed an experimental framework benchmarking 5 pricing policies, verifying revenue lift through two-sample Welch's t-tests ($p < 10^{-9}$) and measuring price stability metrics.
-- **Model Explainability with SHAP**: Interpreted complex tree predictions using SHAP TreeExplainer and Partial Dependence Plots, validating that occupancy rate and queue congestion are the primary non-linear price drivers.
-
----
 
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE).
