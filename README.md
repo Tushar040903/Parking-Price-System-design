@@ -201,6 +201,7 @@ Parking-Price-System-design/
 ├── dataset.csv                            # Telemetry dataset (18,368 records)
 ├── problem statement.pdf                  # Official capstone problem statement
 ├── run_pipeline.py                        # Automated end-to-end CLI execution script
+├── app.py                                 # Interactive Streamlit Web Application & Dashboard
 ├── notebooks/
 │   └── ParkWise_Dynamic_Pricing.ipynb     # 89-cell interactive Jupyter notebook
 ├── src/                                   # Modular Python package
@@ -262,7 +263,15 @@ python run_pipeline.py
 ```
 This loads `dataset.csv`, conducts statistical tests, trains ARIMA/XGBoost forecasting models, evaluates 5 supervised pricing models, performs K-Means clustering, computes geospatial metrics, simulates 5 pricing strategies, calculates SHAP explainability values, and exports all figures to `outputs/`.
 
-### 3. Explore the Interactive Jupyter Notebook
+### 3. Launch the Interactive Streamlit Web Application
+Run the production dashboard to access the real-time pricing sandbox, interactive Folium geospatial network, time-series forecasting, and SHAP explainability insights:
+
+```bash
+streamlit run app.py
+```
+*Access the dashboard at:* `http://localhost:8501`
+
+### 4. Explore the Interactive Jupyter Notebook
 Launch Jupyter to step through the annotated notebook:
 
 ```bash

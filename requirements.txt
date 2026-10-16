@@ -26,9 +26,11 @@ scipy>=1.11.0
 # Geospatial
 haversine>=2.8.0
 
-# Notebook
+# Notebook & Web App
 jupyter>=1.0.0
 nbformat>=5.9.0
+streamlit>=1.30.0
+streamlit-folium>=0.20.0
 
 # Streaming (original project)
 # pathway  # Optional: only needed for the streaming pipeline
