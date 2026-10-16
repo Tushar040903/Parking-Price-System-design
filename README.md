@@ -1,4 +1,9 @@
+<div align="center">
+
 # 🅿️ ParkWise: ML-Driven Dynamic Pricing Engine for Urban Parking Networks
+
+[![Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-Streamlit_Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://parking-price-system-design.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://parking-price-system-design.streamlit.app/)
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,8 +14,16 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
 **Capstone Project — Summer Analytics**  
-*Hosted by: Consulting & Analytics Club × Pathway*  
-*Author: Tushar*
+*Hosted by: Consulting & Analytics Club × Pathway* • *Author: Tushar*
+
+</div>
+
+> [!TIP]
+> ### 🌐 **Live Interactive Production Demo**
+> **Recruiters & Reviewers:** You can test the dynamic pricing engine, real-time simulator, and ML explainability live in your browser without local setup:  
+> 
+> ### 👉 **[Launch ParkWise Web App (parking-price-system-design.streamlit.app)](https://parking-price-system-design.streamlit.app/)** 👈
+> *Features: Real-time Pricing Simulator, Interactive Geospatial Folium Maps, ARIMA/SARIMA/XGBoost Forecasts, Counterfactual A/B Testing, and SHAP TreeExplainer Visuals.*
 
 ---
 
@@ -264,12 +277,15 @@ python run_pipeline.py
 This loads `dataset.csv`, conducts statistical tests, trains ARIMA/XGBoost forecasting models, evaluates 5 supervised pricing models, performs K-Means clustering, computes geospatial metrics, simulates 5 pricing strategies, calculates SHAP explainability values, and exports all figures to `outputs/`.
 
 ### 3. Launch the Interactive Streamlit Web Application
-Run the production dashboard to access the real-time pricing sandbox, interactive Folium geospatial network, time-series forecasting, and SHAP explainability insights:
+
+> 💡 **Prefer zero-install live testing?** Launch the hosted cloud app directly: [**parking-price-system-design.streamlit.app**](https://parking-price-system-design.streamlit.app/)
+
+Run the production dashboard locally to access the real-time pricing sandbox, interactive Folium geospatial network, time-series forecasting, and SHAP explainability insights:
 
 ```bash
 streamlit run app.py
 ```
-*Access the dashboard at:* `http://localhost:8501`
+*Access the local dashboard at:* `http://localhost:8501`
 
 ### 4. Explore the Interactive Jupyter Notebook
 Launch Jupyter to step through the annotated notebook:
